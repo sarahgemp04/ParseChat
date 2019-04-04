@@ -19,11 +19,11 @@ The following **required** user stories are complete:
 
 The following **stretch** user stories are implemented:
 
-- [] User sees an activity indicator while waiting for authentication (+1pt)
-- [] User can pull to refresh Chat feed (+1pt)
-- [] Add an "Adorable Avatar" for each user by requesting an avatar from the [Adorable Avatars API](https://github.com/adorableio/avatars-api) (+2pt)
+- [ ] User sees an activity indicator while waiting for authentication (+1pt)
+- [ ] User can pull to refresh Chat feed (+1pt)
+- [ ] Add an "Adorable Avatar" for each user by requesting an avatar from the [Adorable Avatars API](https://github.com/adorableio/avatars-api) (+2pt)
 - [X] Chat Bubble Style Design (+3pt)
-- [] Expand or contract the cell layout as needed to show the chat message author (user) if it exists (+2pt)
+- [ ] Expand or contract the cell layout as needed to show the chat message author (user) if it exists (+2pt)
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
