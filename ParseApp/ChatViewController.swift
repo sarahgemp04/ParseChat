@@ -52,7 +52,7 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Do any additional setup after loading the view.
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.onTimer), userInfo: nil, repeats: true)
         
-        tableView.separatorStyle = .none
+        chatTableView.separatorStyle = .none
         
         // Auto size row height based on cell autolayout constraints
         chatTableView.rowHeight = UITableView.automaticDimension

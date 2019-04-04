@@ -7,15 +7,20 @@
 //
 
 import UIKit
+import Parse
 
 class ChatCellTableViewCell: UITableViewCell {
     
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var view: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        view.layer.cornerRadius = 16
+        view.clipsToBounds = true
+        view.backgroundColor = UIColor(red: 0, green: 0.54, blue: 1, alpha: 0.8)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
